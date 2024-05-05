@@ -1,32 +1,35 @@
-html{
+html {
   font-size: 10px;
 }
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: antiquewhite;
 }
-.encabezado{
+.encabezado {
   background-image: url(./imagenes/wincraft-nashville-sc-x-johnny-cash-the-boys-in-black-collector-pin_ss5_p-5036721+u-qpi4z5lfcinjzmhn4izc+v-gb5uwezzxp5dzrbftyhd.jpg.avif);
-background-color: black;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-padding: 2rem;
-height: 30vh;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  height: 30vh;
 }
-.menusuperior{
+.menusuperior {
   list-style: none;
   text-align: center;
 }
-.menusuperior li{
+.menusuperior li {
   display: inline-block;
 }
-.menusuperior a{
+.menusuperior a {
   text-decoration: none;
   color: aquamarine;
   font-weight: 700;
   padding: 2rem;
   font-size: 1.4rem;
+}
+.link-abajo a {
+  color: brown;
 }
 p {
   color: aquamarine;
@@ -40,10 +43,10 @@ p {
 .neon {
   color: blueviolet;
 }
-.gris{
+.gris {
   background-color: rgba(219, 214, 214, 0.673);
 }
-*{
+* {
   margin: 0;
   padding: 0;
 }

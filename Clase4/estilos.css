@@ -1,0 +1,37 @@
+.box-model, .box-model-2{
+    background-color: rgb(135, 135, 107);
+    width: 250px;
+    height: 160px;
+    padding: 10px;
+    margin: 40px;
+    /*overflow: auto;*/
+    padding-top: 10px;
+    padding-right: 40px;
+    margin-bottom: 40px;
+    border: solid 5px black
+    display: inline-block;
+
+}
+.encabezado{
+    background-image: url(./imagenes/wincraft-nashville-sc-x-johnny-cash-the-boys-in-black-collector-pin_ss5_p-5036721+u-qpi4z5lfcinjzmhn4izc+v-gb5uwezzxp5dzrbftyhd.jpg.avif);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  height: 30vh;
+  }
+  .menusuperior{
+    list-style: none;
+    text-align: center;
+  }
+  .menusuperior li{
+    display: inline-block;
+  }
+  .menusuperior a{
+    text-decoration: none;
+    color: aquamarine;
+    font-weight: 700;
+    padding: 2rem;
+    font-size: 1.4rem;
+  }

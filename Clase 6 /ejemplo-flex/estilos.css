@@ -1,0 +1,42 @@
+.contenedor_padre{
+    background-color: rgb(230, 244, 239);
+    display: flex;
+    
+}
+.navegacion{
+
+    display: flex;
+background-color: antiquewhite;
+height: 100px;
+justify-content: space-between;
+padding: 2rem;
+
+}
+.header{
+    align-content: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.caja{
+    height: 150px;
+    width: 150px;
+}
+.red{
+    background-color: rgb(226, 98, 98);
+}
+.blue{
+    background-color: rgb(119, 125, 234);
+}
+.pink{
+    background-color: rgb(239, 209, 209);
+}
+.orange{
+    background-color: rgb(228, 161, 84);
+}
+.yellow{
+    background-color: rgb(235, 226, 121);
+}
+.verde{
+    background-color: rgb(134, 224, 194);
+}

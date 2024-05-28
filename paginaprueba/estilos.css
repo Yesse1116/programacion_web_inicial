@@ -1,0 +1,30 @@
+html {
+    
+  }
+  body {
+    background-color: rgb(231, 235, 228);
+  }
+  .encabezado {
+    background-color: rgb(246, 211, 196);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    height: 30vh;
+  }
+  .menu_superior{
+    list-style: none;
+    text-align: center;
+
+  }
+  .menu_superior li{
+display: inline-block;
+
+  }
+  .menu_superior a{
+    text-decoration:none;
+    color: rgb(42, 45, 44);
+    font-weight: 800;
+    padding: 2 rem;
+    font-size: 30100 px;
+  }

@@ -9,7 +9,7 @@ const App = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
 
   const formatDate = (date) => {
-    return date.toISOString().split('T')[0]; // Formato YYYY-MM-DD
+    return date.toISOString().split('T')[0]; // Formato dia YYYY-MM-DD 
   };
 
   const addTask = (title) => {

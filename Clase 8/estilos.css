@@ -1,0 +1,67 @@
+.gradiente {
+  height: 20vh;
+  /* background-image: linear-gradient(to left, pink, blue);*/
+  background: rgb(234, 209, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(234, 209, 237, 1) 0%,
+    rgba(97, 9, 121, 1) 35%,
+    rgba(46, 191, 148, 1) 69%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  
+}
+.verde{
+    background-color: rgb(145, 108, 108);
+  }
+.box-ejemplo {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(181, 225, 198);
+  transform: skew(25deg);
+  transition: height 1s;
+}
+.ejemplo div{
+  width: 100px;
+  height: 100px;
+  border: solid 2px;
+  transition: height 2s;
+  width: 1s;
+}
+.ejemplo div:hover {
+  height: 200px;
+  width: 200px;
+  padding: 1rem;
+
+  background-color: blanchedalmond;
+}
+.ejemplo3{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    animation-name: fulanito;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes fulanito{
+0%{width: 100px;}
+25%{width: 200px; background-color: red;}
+75%{width:300px ;}
+}
+.titulo{
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation int
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

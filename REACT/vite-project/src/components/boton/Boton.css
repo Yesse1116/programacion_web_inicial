@@ -1,0 +1,11 @@
+.boton{
+    background-color: rgb(228, 66, 66) ;
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+.hover:hover{
+    background-color: aquamarine;
+}

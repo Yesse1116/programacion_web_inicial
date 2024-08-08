@@ -1,0 +1,19 @@
+
+.section{
+    background-color: rgb(77, 158, 169);
+}
+.grid-container{
+    display:grid;
+    width: 95%;
+    background-color: aqua;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    gap: 2rem;
+    padding: 2rem;
+}
+.producto{
+    background-color: antiquewhite;
+    scroll-padding: 2rem;
+    border: 3px solid brown;
+    text-align: center;
+}

@@ -10,7 +10,7 @@ html {
     background-size: cover;
     background-position: center;
     padding: 2rem;
-    height: 30vh;
+    height: 8vh;
   }
   .menu_superior{
     list-style: none;
@@ -26,5 +26,5 @@ display: inline-block;
     color: rgb(42, 45, 44);
     font-weight: 800;
     padding: 2 rem;
-    font-size: 30100 px;
+    font-size: 20px;
   }
